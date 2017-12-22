@@ -20,6 +20,12 @@
 		0B005B181FEB693A00C1CC1A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B005B171FEB693A00C1CC1A /* ExtensionDelegate.swift */; };
 		0B005B1A1FEB693A00C1CC1A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B005B191FEB693A00C1CC1A /* NotificationController.swift */; };
 		0B005B1C1FEB693A00C1CC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B005B1B1FEB693A00C1CC1A /* Assets.xcassets */; };
+		0B005B2D1FEB6BB800C1CC1A /* tamaño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B005B2C1FEB6BB800C1CC1A /* tamaño.swift */; };
+		0B005B2F1FEB6F3200C1CC1A /* Respuestas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B005B2E1FEB6F3200C1CC1A /* Respuestas.swift */; };
+		0B005B311FEB742400C1CC1A /* masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B005B301FEB742400C1CC1A /* masa.swift */; };
+		0B005B331FEB75C500C1CC1A /* queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B005B321FEB75C500C1CC1A /* queso.swift */; };
+		0B005B351FEB77BB00C1CC1A /* ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B005B341FEB77BB00C1CC1A /* ingredientes.swift */; };
+		0B9B7D8D1FEC3CC100847EB9 /* Confirmar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B7D8C1FEC3CC100847EB9 /* Confirmar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +89,12 @@
 		0B005B1B1FEB693A00C1CC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B005B1D1FEB693A00C1CC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B005B1E1FEB693A00C1CC1A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0B005B2C1FEB6BB800C1CC1A /* tamaño.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tamaño.swift"; sourceTree = "<group>"; };
+		0B005B2E1FEB6F3200C1CC1A /* Respuestas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respuestas.swift; sourceTree = "<group>"; };
+		0B005B301FEB742400C1CC1A /* masa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masa.swift; sourceTree = "<group>"; };
+		0B005B321FEB75C500C1CC1A /* queso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queso.swift; sourceTree = "<group>"; };
+		0B005B341FEB77BB00C1CC1A /* ingredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ingredientes.swift; sourceTree = "<group>"; };
+		0B9B7D8C1FEC3CC100847EB9 /* Confirmar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirmar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +167,12 @@
 				0B005B1B1FEB693A00C1CC1A /* Assets.xcassets */,
 				0B005B1D1FEB693A00C1CC1A /* Info.plist */,
 				0B005B1E1FEB693A00C1CC1A /* PushNotificationPayload.apns */,
+				0B005B2C1FEB6BB800C1CC1A /* tamaño.swift */,
+				0B005B2E1FEB6F3200C1CC1A /* Respuestas.swift */,
+				0B005B301FEB742400C1CC1A /* masa.swift */,
+				0B005B321FEB75C500C1CC1A /* queso.swift */,
+				0B005B341FEB77BB00C1CC1A /* ingredientes.swift */,
+				0B9B7D8C1FEC3CC100847EB9 /* Confirmar.swift */,
 			);
 			path = "PizzaAppleWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -303,9 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B005B2F1FEB6F3200C1CC1A /* Respuestas.swift in Sources */,
+				0B005B331FEB75C500C1CC1A /* queso.swift in Sources */,
+				0B005B311FEB742400C1CC1A /* masa.swift in Sources */,
 				0B005B1A1FEB693A00C1CC1A /* NotificationController.swift in Sources */,
 				0B005B181FEB693A00C1CC1A /* ExtensionDelegate.swift in Sources */,
 				0B005B161FEB693A00C1CC1A /* InterfaceController.swift in Sources */,
+				0B005B351FEB77BB00C1CC1A /* ingredientes.swift in Sources */,
+				0B9B7D8D1FEC3CC100847EB9 /* Confirmar.swift in Sources */,
+				0B005B2D1FEB6BB800C1CC1A /* tamaño.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
